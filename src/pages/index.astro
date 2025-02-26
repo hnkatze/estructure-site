@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ArrayVisualization from '../components/array-visualization';
+---
+
+<Layout title="Estructuras de Datos - Visualización">
+  <main class="container mx-auto py-8 px-4">
+    <h1 class="text-4xl font-bold mb-8 text-center">Visualización de Estructuras de Datos</h1>
+    
+    <div class="max-w-3xl mx-auto">
+      <ArrayVisualization client:load />
+    </div>
+    
+    <div class="mt-12 text-center">
+      <p class="text-muted-foreground">
+        Este proyecto es una herramienta educativa para visualizar y entender estructuras de datos.
+      </p>
+    </div>
+  </main>
+</Layout>
+
