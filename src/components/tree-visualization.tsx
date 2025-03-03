@@ -22,6 +22,7 @@ export default function TreeVisualization({ initialTree = [50, 30, 70, 20, 40, 6
   const [activeNodes, setActiveNodes] = useState<number[]>([])
   const [isAnimating, setIsAnimating] = useState(false)
   const [treeHeight, setTreeHeight] = useState<number>(0)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [treeWidth, setTreeWidth] = useState<number>(0)
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)

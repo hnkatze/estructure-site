@@ -99,9 +99,9 @@ export default function ArrayVisualization({ initialArray = [5, 12, 8, 3, 17, 9]
   }
 
   return (
-    <div className="space-y-6 p-4 bg-card rounded-lg shadow-md">
+    <div className="space-y-6 p-4 bg-card rounded-lg w-[70%] ">
       <div className="space-y-2">
-        <h2 className="text-2xl font-bold">Visualización de Arreglo</h2>
+        <h2 className="text-3xl underline font-bold ">Arreglo</h2>
         <p className="text-muted-foreground">
           Un arreglo es una estructura de datos que almacena elementos en ubicaciones de memoria contiguas.
         </p>

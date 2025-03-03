@@ -126,9 +126,9 @@ export default function StackVisualization({
   }
 
   return (
-    <div className="space-y-6 p-4 bg-card rounded-lg shadow-md">
+    <div className="space-y-6 p-4 bg-card rounded-lg w-[70%] ">
       <div className="space-y-2">
-        <h2 className="text-2xl font-bold">Visualización de Pila (Stack)</h2>
+        <h2 className="text-3xl underline font-bold">Pila (Stack)</h2>
         <p className="text-muted-foreground">
           Una pila es una estructura de datos LIFO (Last In, First Out) donde el último elemento añadido es el primero en ser eliminado.
         </p>
