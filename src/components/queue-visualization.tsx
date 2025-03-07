@@ -145,7 +145,7 @@ export default function QueueVisualization({
   return (
     <div className="space-y-6 p-4 bg-card rounded-lg w-[70%]">
       <div className="space-y-2">
-        <h2 className="text-3xl underline font-bold">Fila (Queue)</h2>
+        <h1 className="text-3xl underline font-bold">Fila (Queue)</h1>
         <p className="text-muted-foreground">
           Una fila es una estructura de datos FIFO (First In, First Out) donde el primer elemento añadido
           es el primero en ser removido, similar a una fila de personas esperando en una tienda.

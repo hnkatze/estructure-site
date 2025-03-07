@@ -34,7 +34,8 @@ export default function TreeVisualization({ initialTree = [50, 30, 70, 20, 40, 6
       newRoot = insertNode(newRoot, value)
     })
     setRoot(newRoot)
-  }, [initialTree])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   // Actualizar altura y ancho del árbol cuando cambia
   useEffect(() => {
@@ -319,9 +320,9 @@ export default function TreeVisualization({ initialTree = [50, 30, 70, 20, 40, 6
   }
 
   return (
-    <div className="space-y-6 p-4 bg-card rounded-lg shadow-md">
+    <div className="space-y-6 p-4 bg-card rounded-lg w-[70%]">
       <div className="space-y-2">
-        <h2 className="text-2xl font-bold">Visualización de Árbol Binario de Búsqueda (BST)</h2>
+        <h2 className="text-3xl underline font-bold">Árbol Binario de Búsqueda (BST)</h2>
         <p className="text-muted-foreground">
           Un árbol binario de búsqueda es una estructura de datos jerárquica donde cada nodo tiene como máximo dos
           hijos. Para cada nodo, todos los elementos en el subárbol izquierdo son menores que el nodo, y todos los

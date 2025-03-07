@@ -1,8 +1,12 @@
 import ArrayVisualization from "@/components/array-visualization";
+import GraphVisualization from "@/components/graph-visualization";
 import LinkedListVisualizer from "@/components/LinkedListVisualizer";
+import MapVisualization from "@/components/map-visualization";
 import QueueVisualization from "@/components/queue-visualization";
+import SetVisualization from "@/components/set-visualization";
 import StackVisualization from "@/components/stack-visualizations";
-// import TreeVisualization from "@/components/tree-visualization";
+import TreeVisualization from "@/components/tree-visualization";
+
 
 export default function Home() {
   return (
@@ -12,6 +16,10 @@ export default function Home() {
       <StackVisualization />
       <QueueVisualization />
       <LinkedListVisualizer />
+      <TreeVisualization />
+      <GraphVisualization />
+      <MapVisualization />
+      <SetVisualization />
 
  
     </div>
